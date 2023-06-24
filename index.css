@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+.container {
+  /* background-color: antiquewhite; */
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  /* height: 90vh; */
+  color: white;
+  margin-top: 40px;
+}
+
+.header {
+  display: flex;
+  height: 50px;
+}
+
+.searchbar {
+  width: 50%;
+  margin-left: 10%;
+}
+
+.searchbar input {
+  width: 97%;
+  height: 90%;
+  border: 3px solid #8e8e8e;
+  color: white;
+  padding-left: 10px;
+  background-color: black;
+  font-size: 15px;
+  outline: 0;
+}
+
+input::placeholder {
+  color: white;
+}
+
+.sort-mkt-button,
+.sort-percent-button {
+  width: 12%;
+  margin-left: 30px;
+  color: white;
+  cursor: pointer;
+  background-color: black;
+  border: 3px solid #8e8e8e;
+}
+
+.dataEntry {
+  width: 100%;
+  margin-top: 5px;
+}
+
+table {
+  width: 80%;
+  margin-top: 5px;
+  margin-left: 9.5%;
+  border-collapse: collapse;
+}
+
+td {
+  border-bottom: 2px solid white;
+  padding: 10px;
+  text-align: center;
+}
+
+img{
+  width: 25px;
+}

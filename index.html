@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Digital Currency</title>
+    <link rel="icon" href="./Images/icons8-currency-48.png" />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="searchbar">
+          <input
+            type="text"
+            name="search"
+            id="search"
+            placeholder="Search By Name or Symbol "
+          />
+        </div>
+        <button type="button" id="mkt-sort" class="sort-mkt-button">Sort By Mkt Cap</button>
+        <button type="button" id="percent-sort" class="sort-percent-button">
+          Sort by percentage
+        </button>
+      </div>
+      <div class="dataEntry">
+        <table class="data">
+          <thead>
+            <tr>
+              <td>logo</td>
+              <td>Name</td>
+              <td>Id</td>
+              <td>Current Price</td>
+              <td>Percentage Change</td>
+              <td>Market Cap</td>
+            </tr>
+          </thead>
+          <tbody id="data-entry"></tbody>
+        </table>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
